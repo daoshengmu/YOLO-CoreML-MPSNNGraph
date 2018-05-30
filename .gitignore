@@ -41,3 +41,6 @@ __pycache__/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+Convert/built_graph
+Convert/darkflow_env
+TinyYOLO.mlmodel

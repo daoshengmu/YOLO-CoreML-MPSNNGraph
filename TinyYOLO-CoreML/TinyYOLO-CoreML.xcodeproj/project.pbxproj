@@ -18,7 +18,7 @@
 		7BC25FA41EF1B7D1002ECBBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC25FA31EF1B7D1002ECBBA /* ViewController.swift */; };
 		7BC25FA71EF1B7D1002ECBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC25FA51EF1B7D1002ECBBA /* Main.storyboard */; };
 		7BC25FA91EF1B7D1002ECBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC25FA81EF1B7D1002ECBBA /* Assets.xcassets */; };
-		7BC25FB41EF1CEB0002ECBBA /* TinyYOLO.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7BC25FB31EF1CEAE002ECBBA /* TinyYOLO.mlmodel */; };
+		B791538B20BD2A14006C986A /* TinyYOLO.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B791538A20BD2A14006C986A /* TinyYOLO.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +34,8 @@
 		7BC25FA61EF1B7D1002ECBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BC25FA81EF1B7D1002ECBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BC25FAD1EF1B7D1002ECBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BC25FB31EF1CEAE002ECBBA /* TinyYOLO.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TinyYOLO.mlmodel; sourceTree = "<group>"; };
 		7BC25FB51EF27C0D002ECBBA /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		B791538A20BD2A14006C986A /* TinyYOLO.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TinyYOLO.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,9 @@
 				7BA1C6D91EF2B30200BB25EF /* CVPixelBuffer+Helpers.swift */,
 				7BA1C6DB1EF2B56D00BB25EF /* dog416.png */,
 				7B9F8D491EF2CDA700F913BD /* Helpers.swift */,
+				B791538A20BD2A14006C986A /* TinyYOLO.mlmodel */,
 				7BC25FAD1EF1B7D1002ECBBA /* Info.plist */,
 				7BC25FA51EF1B7D1002ECBBA /* Main.storyboard */,
-				7BC25FB31EF1CEAE002ECBBA /* TinyYOLO.mlmodel */,
 				7BA1C6D11EF2827500BB25EF /* UIImage+CVPixelBuffer.swift */,
 				7BC25FB51EF27C0D002ECBBA /* VideoCapture.swift */,
 				7BC25FA31EF1B7D1002ECBBA /* ViewController.swift */,
@@ -158,11 +158,11 @@
 			files = (
 				7BA1C6D01EF27DA000BB25EF /* VideoCapture.swift in Sources */,
 				7BA1C6DA1EF2B30200BB25EF /* CVPixelBuffer+Helpers.swift in Sources */,
-				7BC25FB41EF1CEB0002ECBBA /* TinyYOLO.mlmodel in Sources */,
 				7BA1C6D21EF2827800BB25EF /* UIImage+CVPixelBuffer.swift in Sources */,
 				7B9F8D4A1EF2CDA700F913BD /* Helpers.swift in Sources */,
 				7BA1C6D61EF2861600BB25EF /* BoundingBox.swift in Sources */,
 				7BC25FA41EF1B7D1002ECBBA /* ViewController.swift in Sources */,
+				B791538B20BD2A14006C986A /* TinyYOLO.mlmodel in Sources */,
 				7BA1C6D81EF2871600BB25EF /* YOLO.swift in Sources */,
 				7BC25FA21EF1B7D1002ECBBA /* AppDelegate.swift in Sources */,
 			);
@@ -289,7 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MGCEKGP4Y4;
+				DEVELOPMENT_TEAM = 2TYS4EF246;
 				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = "TinyYOLO-CoreML/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -305,7 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MGCEKGP4Y4;
+				DEVELOPMENT_TEAM = 2TYS4EF246;
 				INFOPLIST_FILE = "TinyYOLO-CoreML/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.machinethink.TinyYOLO-CoreML";
